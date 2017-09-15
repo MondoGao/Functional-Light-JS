@@ -486,7 +486,7 @@ Whether you use currying or partial application, creating specialized functions 
 
 The definition and implementation I've given of currying thus far is, I believe, as true to the spirit as we can likely get in JavaScript.
 
-Specifically, if we look briefly at how currying works in Haskell, we can observe that multiple arguments always go in to a function one at a time, one per curried call -- other than tuples (analogus to arrays for our purposes) that transport multiple values in a single argument.
+Specifically, if we look briefly at how currying works in Haskell, we can observe that multiple arguments always go in to a function one at a time, one per curried call -- other than tuples (analogous to arrays for our purposes) that transport multiple values in a single argument.
 
 For example, in Haskell:
 
